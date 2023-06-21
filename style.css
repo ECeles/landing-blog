@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 70px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav a:hover {
+  color: rgb(255, 99, 71, 0.8);
+}
+
+main {
+  display: flex;
+  gap: 40px;
+  margin: 0 50px;
+}
+
+.hero {
+  width: 70%;
+}
+
+.hero img {
+  max-width: 800px;
+}
+
+.hero h1 {
+  max-width: 400px;
+  font-size: 70px;
+  line-height: 95%;
+}
+
+.main-theme {
+  max-width: 1000px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.main-theme p {
+  color: gray;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.presentation button {
+  all: unset;
+
+  width: 220px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+
+  cursor: pointer;
+}
+
+.presentation a {
+  text-decoration: none;
+}
+
+.presentation button:hover {
+  background-color: rgb(243, 59, 53);
+}
+
+aside {
+  background-color: black;
+  width: 30%;
+  padding: 25px 30px;
+}
+
+aside h2 {
+  margin-bottom: 28px;
+
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 45px;
+  color: rgb(218, 165, 32, 0.95);
+}
+
+aside a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+aside a:hover {
+  color: rgb(218, 165, 32, 0.95);
+}
+
+aside p {
+  font-size: 18px;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.aside-topics {
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.8);
+  margin-bottom: 30px;
+}
+
+.topic-infos {
+  margin: 70px 50px 0 50px;
+  display: flex;
+  gap: 40px;
+}
+
+.presentation-topic-infos {
+  display: flex;
+  gap: 15px;
+}
+
+.presentation-topic-infos img {
+  height: 120px;
+}
