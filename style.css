@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 header {
-  margin: 70px 50px;
+  margin: 70px 50px 50px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(255, 99, 71, 0.8);
+  color: hsl(35, 77%, 62%);
 }
 
 main {
@@ -36,29 +37,33 @@ main {
 }
 
 .hero img {
-  max-width: 800px;
+  max-width: 100%;
 }
 
-.hero h1 {
+.main-theme h1 {
+  word-wrap: normal;
   max-width: 400px;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 95%;
 }
 
 .main-theme {
-  max-width: 1000px;
+  max-width: 100%;
   padding-top: 30px;
   display: flex;
-}
-
-.main-theme p {
-  color: gray;
+  gap: 40px;
 }
 
 .presentation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.presentation p {
+  font-size: 15px;
+  color: gray;
+  line-height: 28px;
 }
 
 .presentation button {
@@ -87,7 +92,7 @@ main {
 }
 
 .presentation button:hover {
-  background-color: rgb(243, 59, 53);
+  background-color: hsl(5, 85%, 63%);
 }
 
 aside {
@@ -118,6 +123,7 @@ aside a:hover {
 }
 
 aside p {
+  margin-top: 18px;
   font-size: 18px;
   color: rgb(255, 255, 255, 0.8);
 }
@@ -129,9 +135,16 @@ aside p {
 }
 
 .topic-infos {
-  margin: 70px 50px 0 50px;
+  margin: 70px 50px 100px 50px;
   display: flex;
   gap: 40px;
+}
+
+.new-infos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .presentation-topic-infos {
@@ -141,4 +154,25 @@ aside p {
 
 .presentation-topic-infos img {
   height: 120px;
+}
+
+.presentation-topic-infos h3 {
+  font-size: 25px;
+  color: rgba(55, 55, 54, 0.248);
+}
+
+.presentation-topic-infos a {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.presentation-topic-infos a:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.new-infos p {
+  line-height: 25px;
+  color: gray;
 }
